@@ -22,23 +22,29 @@ comida = "pizza";
 console.log(comida);
 
 // Declarar uma variável com o seu nome
-
+var novoNome = "Jhon";
 // Declarar uma variável com a sua idade
-
+var novaIdade = 50;
 // Declarar uma variável com a sua comida
 // favorita e não atribuir valor
-
-// Atribuir valor a sua comida favorita
-
-// Declarar 5 variáveis diferentes sem valores
-
-var novoNome = "Jhon";
-var novaIdade = 50;
 var comidaFavorita;
+// Atribuir valor a sua comida favorita
 comidaFavorita = "Milho";
-
-var semValor1;
-var semValor2;
-var semValor3;
-var semValor4;
-var semValor5;
+// Declarar 5 variáveis diferentes sem valores
+// var semValor1;
+// var semValor2;
+// var semValor3;
+// var semValor4;
+// var semValor5;
+// var trabalha, maiorDeIdade, bebe, fuma, estuda;
+// trabalha = true;
+// maiorDeIdade = true;
+// bebe = true;
+// fuma = true;
+// estuda = true;
+var trabalha = true,
+  maiorDeIdade = true,
+  bebe = true,
+  fuma = true,
+  estuda = true;
+console.log(novoNome, novaIdade, comidaFavorita);
