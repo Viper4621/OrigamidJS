@@ -41,3 +41,30 @@ console.log(idade + somaIdade); //365
 // no caso abaixo que temos idade um numero dentro de string para dar certo fazer a soma e a mudança da soma para ser -5
 // precisamos primeiro transformar em +idade e depois + -somaIdade
 console.log(+idade + -somaIdade);
+
+// Qual o resultado da seguinte expressão?
+var totalExercicio = 10 + (5 * 2) / 2 + 20; // 10+ 10/2 = 5 + 20 // 10 + 5 + 20
+console.log(totalExercicio);
+
+// Crie duas expressões que retornem NaN
+var numeroExercicio = "é36";
+console.log(+numeroExercicio);
+
+var numeroExercicio2 = "teste" * 2;
+console.log(-numeroExercicio2);
+
+// Somar a string '200' com o número 50 e retornar 250
+var somaString = +"200" + 50;
+console.log(somaString);
+// Incremente o número 5 e retorne o seu valor incrementado
+var incremento5 = 5;
+incremento5++;
+console.log(incremento5);
+
+// Como dividir o peso por 2?
+var numero = +"80" / 2;
+var unidade = "kg";
+var peso = numero + unidade; // '80kg'
+var pesoPorDois = peso; // 2; // NaN (Not a Number)
+
+console.log(`o peso é ${pesoPorDois}`);
